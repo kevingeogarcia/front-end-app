@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Druk Text Wide";
+  src: url("../Fonts/DrukTextWide-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Druk Text Heavy";
+  src: url("../Fonts/Syne-Bold.ttf");
+}
+
+body {
+  background: #f7f7f7f7;
+  margin: 0;
+  font-family: "Druk Text Wide";
+}
+
+p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: rgba(0, 0, 0, 0.4);
+}
+img {
+  position: absolute;
+  width: 567px;
+  height: 446.26px;
+}
+.banner {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  top: 161.99px;
+}
+.banner--text{
+ font-size: 60px;
+}
+.background-image {
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 110%;
+
+}
